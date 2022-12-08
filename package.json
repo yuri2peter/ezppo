@@ -1,7 +1,7 @@
 {
-  "name": "npm-package-template",
+  "name": "@yuri2/ezppo",
   "version": "0.1.0",
-  "description": "npm打包脚手架",
+  "description": "PPO",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/yuri2peter/npm-package-template"
+    "url": "git+https://github.com/yuri2peter/ezppo"
   },
   "keywords": [
     "toolkit",
@@ -22,9 +22,25 @@
   "author": "yuri2",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/yuri2peter/npm-package-template/issues"
+    "url": "https://github.com/yuri2peter/ezppo/issues"
   },
-  "homepage": "https://github.com/yuri2peter/npm-package-template#readme",
+  "homepage": "https://github.com/yuri2peter/ezppo#readme",
+  "dependencies": {
+    "@tensorflow/tfjs": "^3.6.0",
+    "@tensorflow/tfjs-layers": "^3.6.0",
+    "@tensorflow/tfjs-node": "^3.6.1",
+    "denque": "^1.5.0",
+    "express": "^4.17.1",
+    "ndarray": "^1.0.19",
+    "ndarray-pack": "^1.2.1",
+    "ndarray-unpack": "^1.0.0",
+    "numjs": "github:nicolaspanel/numjs",
+    "open": "^8.2.0",
+    "pino": "^6.11.3",
+    "pino-pretty": "^5.0.2",
+    "seedrandom": "^3.0.5",
+    "socket.io": "^4.1.2"
+  },
   "devDependencies": {
     "@babel/core": "^7.17.10",
     "@babel/preset-env": "^7.17.10",

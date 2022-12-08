@@ -1,12 +1,10 @@
-# mylibs
+# ezppo
 
-这是开发 npm 包的脚手架，使用 ts 作为开发语言。
-mylibs 指包名，实际使用请替换为正确的包名。
-以下内容以 mylibs 为例。
+基于[StoneT2000/rl-ts](https://github.com/StoneT2000/rl-ts)改编的 PPO 算法封装。
 
 ## 安装
 
-`npm i mylibs`
+`npm i @yuri2/ezppo`
 
 ## 使用
 
