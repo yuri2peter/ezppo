@@ -26,20 +26,7 @@
   },
   "homepage": "https://github.com/yuri2peter/ezppo#readme",
   "dependencies": {
-    "@tensorflow/tfjs": "^3.6.0",
-    "@tensorflow/tfjs-layers": "^3.6.0",
-    "@tensorflow/tfjs-node": "^3.6.1",
-    "denque": "^1.5.0",
-    "express": "^4.17.1",
-    "ndarray": "^1.0.19",
-    "ndarray-pack": "^1.2.1",
-    "ndarray-unpack": "^1.0.0",
-    "numjs": "github:nicolaspanel/numjs",
-    "open": "^8.2.0",
-    "pino": "^6.11.3",
-    "pino-pretty": "^5.0.2",
-    "seedrandom": "^3.0.5",
-    "socket.io": "^4.1.2"
+    "@tensorflow/tfjs": "^3.8.0"
   },
   "devDependencies": {
     "@babel/core": "^7.17.10",

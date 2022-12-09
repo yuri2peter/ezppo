@@ -1,6 +1,6 @@
 # ezppo
 
-基于[StoneT2000/rl-ts](https://github.com/StoneT2000/rl-ts)改编的 PPO 算法封装。
+基于[StoneT2000/rl-ts](https://github.com/polyzer/rllib.js.git)改编的 PPO 算法封装。
 
 ## 安装
 
