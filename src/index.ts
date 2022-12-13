@@ -1,3 +1,3 @@
-import srctest from "./srctest";
+import { Ezppo } from "./lib/Ezppo";
 
-export { srctest };
+export { Ezppo };

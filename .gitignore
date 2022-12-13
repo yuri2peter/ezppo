@@ -3,3 +3,4 @@
  
 # compiled output
 /dist
+/test/game/weights.json

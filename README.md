@@ -1,6 +1,6 @@
 # ezppo
 
-基于[StoneT2000/rl-ts](https://github.com/polyzer/rllib.js.git)改编的 PPO 算法封装。
+基于[hmomin/PPO-Winter-Run](https://github.com/hmomin/PPO-Winter-Run)改编的 PPO 算法封装。
 
 ## 安装
 
@@ -8,17 +8,8 @@
 
 ## 使用
 
-```ts
-import { srctest as sleep } from "../src/index";
-
-async function main() {
-  console.log(1);
-  await sleep(1000);
-  console.log(2);
-}
-
-main();
-```
+示例：`test/index`。
+参考：[PPO 算法参数实践](https://github.com/EmbersArc/PPO/blob/master/best-practices-ppo.md)
 
 ## 开发
 
